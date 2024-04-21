@@ -2696,7 +2696,7 @@
  * Disable all menus and only display the Status Screen, or
  * just remove some extraneous menu items to recover space.
  */
-#define NO_LCD_MENUS
+// #define NO_LCD_MENUS
 //#define SLIM_LCD_MENUS
 
 //
@@ -2901,7 +2901,7 @@
 //
 // Generic LCM1602 LCD adapter
 //
-//#define LCM1602
+// #define LCM1602
 
 //
 // PANELOLU2 LCD with status LEDs,
@@ -2964,7 +2964,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 //
 // K.3D Full Graphic Smart Controller
@@ -3023,7 +3023,7 @@
 //
 // LCD for Melzi Card with Graphical LCD
 //
-//#define LCD_FOR_MELZI
+// #define LCD_FOR_MELZI
 
 //
 // Original Ulticontroller from Ultimaker 2 printer with SSD1309 I2C display and encoder
@@ -3076,7 +3076,7 @@
 //
 // Connect to EXP1 on RAMPS and compatible boards.
 //
-//#define CR10_STOCKDISPLAY
+// #define CR10_STOCKDISPLAY
 
 //
 // Ender-2 OEM display, a variant of the MKS_MINI_12864
@@ -3219,7 +3219,7 @@
  *
  * :[ 'ORIGIN', 'FYSETC', 'HYPRECY', 'MKS', 'RELOADED', 'IA_CREALITY', 'E3S1PRO', 'CREALITY_TOUCH' ]
  */
-#define DGUS_LCD_UI ORIGIN
+// #define DGUS_LCD_UI ORIGIN
 #if DGUS_UI_IS(MKS)
   #define USE_MKS_GREEN_UI
 #elif DGUS_UI_IS(IA_CREALITY)
