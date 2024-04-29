@@ -72,7 +72,7 @@
 // Custom Thermistor 1000 parameters
 //
 #if TEMP_SENSOR_0 == 1000
-  #define HOTEND0_PULLUP_RESISTOR_OHMS    4700 // Pullup resistor
+  #define HOTEND0_PULLUP_RESISTOR_OHMS    1000 // Pullup resistor
   #define HOTEND0_RESISTANCE_25C_OHMS   100000 // Resistance at 25C
   #define HOTEND0_BETA                    3950 // Beta value
   #define HOTEND0_SH_C_COEFF                 0 // Steinhart-Hart C coefficient
@@ -4336,15 +4336,15 @@
 /**
  * Native ESP32 board with WiFi or add-on ESP32 WiFi-101 module
  */
-//#define WIFISUPPORT         // Marlin embedded WiFi management. Not needed for simple WiFi serial port.
-//#define ESP3D_WIFISUPPORT   // ESP3D Library WiFi management (https://github.com/luc-github/ESP3DLib)
+// #define WIFISUPPORT         // Marlin embedded WiFi management. Not needed for simple WiFi serial port.
+// #define ESP3D_WIFISUPPORT   // ESP3D Library WiFi management (https://github.com/luc-github/ESP3DLib)
 
 /**
  * Extras for an ESP32-based motherboard with WIFISUPPORT
  * These options don't apply to add-on WiFi modules based on ESP32 WiFi101.
  */
 #if ANY(WIFISUPPORT, ESP3D_WIFISUPPORT)
-  //#define WEBSUPPORT          // Start a webserver (which may include auto-discovery) using SPIFFS
+  // #define WEBSUPPORT          // Start a webserver (which may include auto-discovery) using SPIFFS
   //#define OTASUPPORT          // Support over-the-air firmware updates
   //#define WIFI_CUSTOM_COMMAND // Accept feature config commands (e.g., WiFi ESP3D) from the host
 
