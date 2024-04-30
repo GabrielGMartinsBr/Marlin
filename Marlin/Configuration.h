@@ -130,11 +130,11 @@
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-5 Plus"
+#define CUSTOM_MACHINE_NAME "[E5P-9] Ender-5 Plus"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
-#define MACHINE_UUID "8cd276e6-41c7-4439-8f4e-f188537ebdac"
+#define MACHINE_UUID "a09143c0-3284-4f57-b939-d491b8ade72f"
 
 // @section stepper drivers
 
@@ -1608,7 +1608,7 @@
  *     O-- FRONT --+
  */
 // Note on Creality Ender-5 Plus: Z offset must be adjusted (M851) every time once the probe has been loosen/unmounted.
-#define NOZZLE_TO_PROBE_OFFSET { -33, -6, -3.5 }
+#define NOZZLE_TO_PROBE_OFFSET { -33, -6, -3.29 }
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
