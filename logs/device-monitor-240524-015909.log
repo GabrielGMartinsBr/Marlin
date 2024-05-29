@@ -1,0 +1,32 @@
+01:59:09.938 > [37mets Jun  8 2016 00:22:57
+01:59:09.938 > 
+01:59:09.938 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+01:59:09.938 > configsip: 0, SPIWP:0xee
+01:59:09.938 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+01:59:09.938 > mode:DIO, clock div:2
+01:59:09.938 > load:0x3fff0018,len:4
+01:59:09.938 > load:0x3fff001c,len:1044
+01:59:09.938 > load:0x40078000,len:8896
+01:59:09.938 > load:0x40080400,len:5828
+01:59:09.938 > entry 0x400806ac
+01:59:09.938 > start
+01:59:09.938 >  External Reset
+01:59:09.938 >  Brown out Reset
+01:59:09.938 >  Watchdog Reset
+01:59:09.938 > Marlin bugfix-2.1.x
+01:59:09.938 > echo: Last Updated: 2024-04-30 | Author: (none, default config)
+01:59:09.938 > echo: Compiled: May 10 2024
+01:59:09.938 > echo: Free Memory: 296944  PlannerBufferBytes: 1280
+01:59:09.938 > echo:EEPROM version mismatch (EEPROM=? Marlin=V90)
+01:59:09.938 > echo:Hardcoded Default Settings Loaded
+01:59:09.938 > echo:WiFi station started
+01:59:09.938 > echo:Connecting Viasultech-2.4
+01:59:09.938 > echo:Connecting.
+01:59:09.938 > echo:Connected
+01:59:09.938 > echo:192.168.15.19
+01:59:09.938 > echo:OTA service started
+01:59:09.938 > echo:mDNS service (marlinesp) started
+01:59:09.938 > echo:SSDP service started
+01:59:09.938 > echo:HTTP server started
+01:59:09.938 > echo:No SD card
+01:59:09.938 > echo:192.168.15.19
